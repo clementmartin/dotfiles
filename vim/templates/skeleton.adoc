@@ -1,0 +1,14 @@
+= TITLE
+FULL_NAME <EMAIL_PREFIX@EMAIL_DOMAIN>
+v0.1
+:toc: left
+:numbered:
+:toclevels: 2
+:icons: font
+
+[abstract]
+.Abstract
+
+
+== Introduction
+
