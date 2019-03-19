@@ -13,3 +13,5 @@ Then on first run, Install them with the following command:
 ```
 vim -N -u ~/.vim/plugins.vim -c 'PlugInstall'
 ```
+
+WARNING: This distribution includes vim-devicons, so you will need a patched font ( http://nerdfonts.com )

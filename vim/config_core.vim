@@ -12,6 +12,9 @@ let mapleader = ","
 " allow per file settings if a modeline is found
 set modeline
 
+" encoding
+set encoding=UTF-8
+
 " set backup / swap dir
 set backupdir=~/.vim/backups//
 set directory=~/.vim/cache//

@@ -25,5 +25,6 @@ Plug 'davidhalter/jedi-vim'
 Plug 'ervandew/supertab'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
