@@ -1,4 +1,4 @@
-" unite.vim mappings
+" denite.vim mappings
 " browse buffers
 nnoremap <leader>ob :<C-u>Denite -buffer-name=buffer buffer<cr>
 " browse files in this directory
