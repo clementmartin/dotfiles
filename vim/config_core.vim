@@ -6,8 +6,8 @@ filetype plugin indent on
 " Syntax highlighting
 syntax on
 
-" remap "," as leader key as soon as possible
-let mapleader = ","
+" remap space as leader key as soon as possible
+let mapleader = " "
 
 " allow per file settings if a modeline is found
 set modeline
