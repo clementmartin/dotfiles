@@ -25,8 +25,9 @@ hi Normal guibg=NONE ctermbg=NONE
 " show line numbers
 set number
 
-" syntastic status
-"set statusline+=%#warningmsg#
-":set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
+" Maintain more context around the cursor
+set scrolloff=3
 
+set shortmess=atI
+
+set vb t_vb=     " no visual bell & flash

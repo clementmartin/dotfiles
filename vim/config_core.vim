@@ -15,6 +15,13 @@ set modeline
 " encoding
 set encoding=UTF-8
 
+" keep more stuff in history
+set history=1000
+
+" list completions
+set wildmenu
+set wildmode=list:longest
+
 " set backup / swap dir
 set backupdir=~/.vim/backups//
 set directory=~/.vim/cache//
@@ -28,3 +35,12 @@ if has("autocmd")
     autocmd BufNewFile *.adoc 0r ~/.vim/templates/skeleton.adoc
   augroup END
 endif
+
+" search options
+set ignorecase
+set smartcase
+" Highlight search terms...
+set hlsearch
+set incsearch " ...dynamically as they are typed.
+" Intuitive backspacing in insert mode
+set backspace=indent,eol,start
