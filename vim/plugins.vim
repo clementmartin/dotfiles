@@ -26,5 +26,8 @@ Plug 'ervandew/supertab'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'ryanoasis/vim-devicons'
+" denite.nvim dependencies for vim.
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 
 call plug#end()

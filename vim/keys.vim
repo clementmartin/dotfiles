@@ -8,7 +8,7 @@ nnoremap <leader>ob :<C-u>Denite -buffer-name=buffer buffer<cr>
 " browse files in this directory
 nnoremap <leader>oF :<C-u>Denite -buffer-name=files  file<cr>
 " browse files recursively
-nnoremap <leader>or :<C-u>Denite -buffer-name=files  file_rec<cr>
+nnoremap <leader>or :<C-u>Denite -buffer-name=files  file/rec<cr>
 " file explorer mode
 nnoremap <Leader>oe :Explore<CR>
 " NERDTree file manager
