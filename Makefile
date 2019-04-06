@@ -4,8 +4,8 @@ EMAIL_DOMAIN = onespan.com
 
 .PHONY: create-directories
 create-directories:
-	@mkdir -p ~/.vim/backups,cache,undo
-	@mkdir -p ~/.vim/cache,undo
+	@mkdir -p ~/.vim/backups
+	@mkdir -p ~/.vim/cache
 	@mkdir -p ~/.vim/undo
 
 .PHONY: copy-files
