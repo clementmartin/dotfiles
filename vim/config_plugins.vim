@@ -38,3 +38,14 @@ let g:syntastic_asciidoc_asciidoc_exec = "asciidoctor"
 
 " jedi-vim
 let g:jedi#use_splits_not_buffers = "right"
+
+" vimwiki settings
+let g:vimwiki_auto_chdir = 1
+
+let wiki = {}
+let wiki.path = '~/docs/notes/'
+let wiki.path_html = '~/docs/pub/notes'
+let wiki.autoexport = 1
+let wiki.auto_toc = 1
+let wiki.maxhi = 1
+let g:vimwiki_list = [wiki]
