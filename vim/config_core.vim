@@ -44,3 +44,9 @@ set hlsearch
 set incsearch " ...dynamically as they are typed.
 " Intuitive backspacing in insert mode
 set backspace=indent,eol,start
+
+" tabs and stuff
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set colorcolumn=80
