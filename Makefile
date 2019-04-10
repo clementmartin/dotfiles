@@ -10,6 +10,7 @@ create-directories:
 
 .PHONY: copy-files
 copy-files: create-directories
+	@rm -rf $(HOME)/.vim/after $(HOME)/.vim/colors $(HOME)/.vim/templates $(HOME)/.vim/*.vim
 	@cp vimrc ~/.vimrc
 	@cp -r vim/* ~/.vim
 

@@ -1,9 +1,11 @@
-= vim config
+# vim config
 
 This repo contains my current vim config for onespan.
 It needs at least vim 8.0
 
 Install config by running `make install`
+
+WARNING: This will delete any most of `~/.vim`
 
 Plugins are managed via https://github.com/junegunn/vim-plug
 
