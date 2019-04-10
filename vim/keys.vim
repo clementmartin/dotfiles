@@ -1,3 +1,26 @@
+" Function keys
+set <F1>=[11~
+set <F2>=[12~
+set <F3>=[13~
+set <F4>=[14~
+set <F5>=[15~
+set <F6>=[17~
+set <F7>=[18~
+set <F8>=[19~
+set <F9>=[20~
+set <F10>=[21~
+set <F11>=[23~
+set <F12>=[24~
+
+" F keys mappings
+noremap <F1> <esc>:NERDTreeToggle<CR>
+inoremap <F3> <esc>:set number!<cr>i
+nnoremap <F3> :set number!<cr>
+inoremap <F2> <esc>:set paste!<cr>i
+nnoremap <F2> :set paste!<cr>
+noremap <F12> :TagbarToggle<CR>
+
+
 " go to next buffer
 nnoremap <leader>n :bn<cr>
 "go to previous buffer
