@@ -49,3 +49,25 @@ let wiki.autoexport = 1
 let wiki.auto_toc = 1
 let wiki.maxhi = 1
 let g:vimwiki_list = [wiki]
+
+" tagbar
+let g:tagbar_type_ansible = {
+  \ 'ctagstype' : 'ansible',
+  \ 'kinds' : [
+    \ 't:tasks'
+  \ ],
+  \ 'sort' : 0
+  \ }
+
+let g:tagbar_type_asciidoc = {
+    \ 'ctagstype' : 'asciidoc',
+    \ 'kinds' : [
+        \ 'h:table of contents',
+        \ 'a:anchors:1',
+        \ 't:titles:1',
+        \ 'n:includes:1',
+        \ 'i:images:1',
+        \ 'I:inline images:1'
+    \ ],
+    \ 'sort' : 0
+   \ }

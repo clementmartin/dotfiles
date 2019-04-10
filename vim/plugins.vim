@@ -29,5 +29,8 @@ Plug 'ryanoasis/vim-devicons'
 " denite.nvim dependencies for vim.
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
+Plug 'majutsushi/tagbar'
 
 call plug#end()
