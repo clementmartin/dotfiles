@@ -40,3 +40,8 @@ set scrolloff=3
 set shortmess=atI
 
 set vb t_vb=     " no visual bell & flash
+
+" utf-8 vertical separator
+set fillchars+=vert:│
+" override theme setting
+autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Cyan ctermbg=NONE
