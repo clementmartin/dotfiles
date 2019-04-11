@@ -71,3 +71,6 @@ let g:tagbar_type_asciidoc = {
     \ ],
     \ 'sort' : 0
    \ }
+
+let g:ft_man_open_mode = 'vert'
+set keywordprg=:Man
