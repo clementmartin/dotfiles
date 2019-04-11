@@ -25,6 +25,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'ervandew/supertab'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-obsession'
 Plug 'ryanoasis/vim-devicons'
 " denite.nvim dependencies for vim.
 Plug 'roxma/nvim-yarp'
@@ -32,5 +33,6 @@ Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
 Plug 'majutsushi/tagbar'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
