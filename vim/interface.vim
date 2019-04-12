@@ -1,6 +1,11 @@
 " use 256 colours
 if has('unix')
-    set t_Co=256
+  set t_Co=256
+endif
+
+" use 24bit colors for x11 terminals
+if &term =~ "xterm-256color"
+  set termguicolors
 endif
 
 " fix for tmux
