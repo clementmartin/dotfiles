@@ -35,5 +35,6 @@ Plug 'xolox/vim-easytags'
 Plug 'majutsushi/tagbar'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux'
+Plug 'robbles/logstash.vim'
 
 call plug#end()
