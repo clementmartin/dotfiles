@@ -27,7 +27,7 @@ install: copy-files
 	@echo "Install vim plugins by running:"
 	@echo "    vim -u ~/.vim/plugins.vim -N -c 'PlugInstall'"
 	@echo "Install tmux plugin manager if not already done:"
-	@echo "    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm"
+	@echo "    git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm"
 	@echo ""
 	@echo "Then reload the config and install plugins with <prefix>-I inside tmux"
 
