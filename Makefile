@@ -33,4 +33,4 @@ install: copy-files
 
 .PHONY: uninstall
 uninstall:
-	rm -rf ~/.vim ~/.vimrc
+	rm -rf ~/.vim ~/.vimrc  ~/.tmux*
