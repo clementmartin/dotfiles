@@ -2,8 +2,8 @@
 noremap <F1> <esc>:NERDTreeToggle<CR>
 inoremap <F2> <esc>:set paste!<cr>i
 nnoremap <F2> :set paste!<cr>
-inoremap <F3> <esc>:set number!<cr>i
-nnoremap <F3> :set number!<cr>
+inoremap <F3> <esc>:set number!<cr>:GitGutterToggle<cr>:ALEToggleBuffer<cr>i
+nnoremap <F3> :set number!<cr>:GitGutterToggle<cr>:ALEToggleBuffer<cr>
 inoremap <F5> <esc>:%!python -m json.tool<cr>:setfiletype json<cr>i
 nnoremap <F5> :%!python -m json.tool<cr>:setfiletype json<cr>
 noremap <F12> :TagbarToggle<CR>
