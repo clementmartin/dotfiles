@@ -4,8 +4,12 @@ inoremap <F2> <esc>:set paste!<cr>i
 nnoremap <F2> :set paste!<cr>
 inoremap <F3> <esc>:set number!<cr>:GitGutterToggle<cr>:ALEToggleBuffer<cr>i
 nnoremap <F3> :set number!<cr>:GitGutterToggle<cr>:ALEToggleBuffer<cr>
-inoremap <F5> <esc>:%!python -m json.tool<cr>:setfiletype json<cr>i
-nnoremap <F5> :%!python -m json.tool<cr>:setfiletype json<cr>
+inoremap <F4> <esc>:%!python -m json.tool<cr>:setfiletype json<cr>i
+nnoremap <F4> :%!python -m json.tool<cr>:setfiletype json<cr>
+inoremap <F8> <esc>:%!base64 -d<cr>i
+nnoremap <F8> :%!base64 -d<cr>
+inoremap <F9> <esc>:%!base64<cr>:%s/\n//<cr>i
+nnoremap <F9> :%!base64<cr>:%s/\n//<cr>^y$
 noremap <F12> :TagbarToggle<CR>
 
 
