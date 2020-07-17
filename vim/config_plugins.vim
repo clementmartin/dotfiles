@@ -74,3 +74,5 @@ let g:tagbar_type_asciidoc = {
 
 let g:ft_man_open_mode = 'vert'
 set keywordprg=:Man
+
+let g:rustfmt_autosave = 1

@@ -36,6 +36,12 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
 " source current file
 nnoremap <leader>vl :source %<cr>
 
+" Cargo mappins
+nnoremap <leader>cb :Cargo build<CR>
+nnoremap <leader>cc :Cargo check<CR>
+nnoremap <leader>cd :Cargo doc --open<CR>
+nnoremap <leader>cr :Cargo run<CR>
+
 " fugitive mappings
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gb :Gblame<CR>

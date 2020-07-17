@@ -19,6 +19,7 @@ Plug 'tpope/vim-speeddating'
 Plug 'Shougo/denite.nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'neomake/neomake'
+Plug 'rust-lang/rust.vim'
 "Plug 'vim-syntastic/syntastic
 Plug 'w0rp/ale'
 Plug 'davidhalter/jedi-vim'
