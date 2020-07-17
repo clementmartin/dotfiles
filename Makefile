@@ -19,11 +19,10 @@ copy-files: create-directories
 
 .PHONY:	edit-templates
 edit-templates: copy-files
-	@sed -i -e 's/FULL_NAME/$(FULL_NAME)/; s/EMAIL_PREFIX/$(EMAIL_PREFIX)/; s/EMAIL_DOMAIN/$(EMAIL_DOMAIN)/' ~/.vim/templates/skeleton.sh
-	@sed -i -e 's/FULL_NAME/$(FULL_NAME)/; s/EMAIL_PREFIX/$(EMAIL_DOMAIN)/; s/EMAIL_DOMAIN/$(EMAIL_DOMAIN)/' ~/.vim/templates/skeleton.adoc
+	@sed -i -e 's/FULL_NAME/$(FULL_NAME)/; s/EMAIL_PREFIX/$(EMAIL_PREFIX)/; s/EMAIL_DOMAIN/$(EMAIL_DOMAIN)/' ~/.vim/templates/skeleton.*
 
 .PHONY: install
-install: copy-files
+install: edit-templates
 	@echo "Install vim plugins by running:"
 	@echo "    vim -u ~/.vim/plugins.vim -N -c 'PlugInstall'"
 	@echo "Install tmux plugin manager if not already done:"
