@@ -6,21 +6,38 @@
 # 2019 - FULL_NAME <EMAIL_PREFIX@EMAIL_DOMAIN>
 #
 
+# Parse you args here as $1..$N won't be available after the `set -o nounset`
+
+
 # Always declare variables
 set -o nounset
 
+# always useful variable with full path
 readonly mypath="$(dirname "${BASH_SOURCE[0]}")"
 
-# Utility function to error out and display the help
-# use it like this:
-# fail 99 "I don't like this."
-# where 99 is the exit code and "I don't like this" the message to display
-fail() {
-  echo $2
-  return $1
-}
-
+# define you help text here
 usage() {
   echo "Usage:"
   echo "$(basename $0) OPTIONS"
 }
+
+# Utility logging functions
+_info() {
+  echo "[INFO] $*"
+}
+
+_warning() {
+  echo "[WARN] $*"
+}
+
+# This one also exits the script with an error
+error() {
+  echo "[ERROR] $*"
+  exit 1
+}
+
+main() {
+  # you code goes here
+}
+
+main

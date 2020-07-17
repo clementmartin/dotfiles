@@ -33,6 +33,7 @@ if has("autocmd")
   augroup templates
     autocmd BufNewFile *.sh 0r ~/.vim/templates/skeleton.sh
     autocmd BufNewFile *.adoc 0r ~/.vim/templates/skeleton.adoc
+    autocmd BufNewFile *.py 0r ~/.vim/templates/skeleton.py
   augroup END
 endif
 
